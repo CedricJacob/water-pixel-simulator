@@ -7,11 +7,6 @@ fps = pygame.time.Clock()
 run = True
 
 world = [[0 for x in range(40)] for i in range(40)]
-world[10][10] = 1
-world[39][10] = 1
-world[0][0] = 1
-world[39 - 1][39 - 1] = 1
-
 moused = False
 
 
